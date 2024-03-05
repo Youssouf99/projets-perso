@@ -21,7 +21,7 @@ public class DefaultController {
 
     @GetMapping("/testError")
     public String testError() {
-        throw new InternalServerErrorException("error");
+        throw new InternalServerErrorException("error test");
     }
 
 
